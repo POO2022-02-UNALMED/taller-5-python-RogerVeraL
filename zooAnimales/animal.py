@@ -52,8 +52,13 @@ class Animal():
         print("Mamiferos :",m.cantidadMamiferos(),
         "Aves :",a.cantidadAves(),
         "Reptiles :",r.cantidadReptiles(),
+<<<<<<< HEAD
         "\nPeces :",p.cantidadPeces(),
         "\nAnfibios :",an.cantidadAnfibios()
+=======
+        "Peces :",p.cantidadPeces(),
+        "Anfibios :",an.cantidadAnfibios()
+>>>>>>> 54a55bdd895b6aa9f943819250034ae7a5e6b939
         )"""
         cadena = f"Mamiferos : {m.cantidadMamiferos()}\nAves : {a.cantidadAves()}\nReptiles : {r.cantidadReptiles()}\nPeces : {p.cantidadPeces()}\nAnfibios : {an.CantidadAnfibios()}"
         return cadena
