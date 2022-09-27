@@ -30,7 +30,7 @@ class Anfibio(Animal):
     
 
     #metodos
-    def cantidadAnfibios():
+    def CantidadAnfibios():
         return Anfibio.anfibios
     def movimiento(self):
         return "saltar"
