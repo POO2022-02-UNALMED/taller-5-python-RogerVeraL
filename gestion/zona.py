@@ -1,6 +1,6 @@
 class Zona():
     #constructor
-    def __init__(self,nombre,zoo):
+    def __init__(self,nombre,zoo=None):
         self._nombre=nombre
         self._zoo=zoo
         self._animales=list()
