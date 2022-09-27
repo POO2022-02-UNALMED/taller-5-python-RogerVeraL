@@ -50,10 +50,10 @@ class Animal():
         from zooAnimales.anfibio import Anfibio as an
         #"""
         print("Mamiferos :",m.cantidadMamiferos(),
-        "\nAves :",a.cantidadAves(),
-        "\nReptiles :",r.cantidadReptiles(),
-        "\nPeces :",p.cantidadPeces(),
-        "\nAnfibios :",an.cantidadAnfibios()
+        "Aves :",a.cantidadAves(),
+        "Reptiles :",r.cantidadReptiles(),
+        "Peces :",p.cantidadPeces(),
+        "Anfibios :",an.cantidadAnfibios()
         )#"""
         #cadena = f"Mamiferos : {m.cantidadMamiferos()}\nAves : {a.cantidadAves()}\nReptiles : {r.cantidadReptiles()}\nPeces : {p.cantidadPeces()}\nAnfibios : {an.CantidadAnfibios()}"
         #return cadena
