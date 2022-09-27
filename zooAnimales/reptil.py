@@ -1,4 +1,5 @@
-from animal import Animal
+from zooAnimales.animal import Animal
+#from animal import Animal
 class Reptil(Animal):
     #atributos
     _listado=list()

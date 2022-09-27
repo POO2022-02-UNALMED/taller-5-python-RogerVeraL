@@ -1,9 +1,10 @@
-class zoologico():
+class Zoologico():
     #constructor
     def __init__(self,nombre,ubicacion):
         self._nombre=nombre
         self._ubicacion=ubicacion
         self._zonas=list()
+    
     #getter & setter
     def getNombre(self):
         return self._nombre
