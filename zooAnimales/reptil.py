@@ -35,6 +35,6 @@ class Reptil(Animal):
     def crearIguana(nombre, edad, genero):
         Reptil.iguanas += 1
         return Reptil(nombre, edad, "humedal", genero, "verde", 3)
-    def crearSerptiente(nombre, edad, genero):
+    def crearSerpiente(nombre, edad, genero):
         Reptil.serpientes += 1
         return Reptil(nombre, edad, "jungla", genero, "blanco", 4)   
