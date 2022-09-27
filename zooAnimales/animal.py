@@ -55,12 +55,11 @@ class Animal():
         "\nAnfibios :",an.cantidadAnfibios()
         )
     
-    def toString(self):
-        if self.getZona == None:
-            return f"Mi nombre es {self.getNombre()} tengo una edad de {self.getEdad()} habito en {self.getHabitat()} y mi genero es {self.getGenero()}"         
-        else:
-            return f"Mi nombre es {self.getNombre()} tengo una edad de {self.getEdad()} habito en {self.getHabitat()} y mi genero es {self.getGenero()} la zona en la que me ubico es {self.getZona.getNombre()} en el {self.getZona.getZoo().getNombre()}"
-            
+    def toString(self):        
+        cadena= f"Mi nombre es {self.getNombre()}, tengo una edad de {self.getEdad()}, habito en {self.getHabitat()} y mi genero es {self.getGenero()}"         
+        if self.getZona != None:    
+            cadena+= f", la zona en la que me ubico es {self._zona.getNombre()}, en el {self.getZona.getZoo().getNombre()}"
+        return cadena
         
 
 

@@ -34,9 +34,9 @@ class Anfibio(Animal):
         return Anfibio.anfibios
     def movimiento(self):
         return "saltar"
-    def crearRana(self,nombre, edad, genero):
+    def crearRana(nombre, edad, genero):
         Anfibio.ranas += 1
         return Anfibio(nombre, edad, "selva", genero, "rojo", True)
-    def crearSalamandra(self,nombre, edad, genero):
+    def crearSalamandra(nombre, edad, genero):
         Anfibio.salamandras += 1
         return Anfibio(nombre, edad, "selva", genero, "negro y amarillo", False)   
