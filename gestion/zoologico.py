@@ -20,7 +20,7 @@ class Zoologico():
         return self._zonas
 
     #metodos
-    def agregarzonas(self,zona):
+    def agregarZonas(self,zona):
         self._zonas.append(zona)
     def cantidadTotalAnimales(self):
         return sum([a.cantidadAnimales() for a  in self._zonas])
