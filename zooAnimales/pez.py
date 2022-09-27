@@ -33,9 +33,9 @@ class Pez(Animal):
         return Pez.peces
     def movimiento(self):
         return "nadar"
-    def crearSalmones(nombre, edad, genero):
+    def crearSalmon(nombre, edad, genero):
         Pez.salmones += 1
         return Pez(nombre, edad, "oceano", genero, "rojo", 6)
-    def crearBacalaos(nombre, edad, genero):
+    def crearBacalao(nombre, edad, genero):
         Pez.bacalaos += 1
         return Pez(nombre, edad, "oceano", genero, "gris", 4)   

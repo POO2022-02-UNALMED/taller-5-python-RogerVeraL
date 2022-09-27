@@ -57,8 +57,8 @@ class Animal():
     
     def toString(self):        
         cadena= f"Mi nombre es {self.getNombre()}, tengo una edad de {self.getEdad()}, habito en {self.getHabitat()} y mi genero es {self.getGenero()}"         
-        if self.getZona != None:    
-            cadena+= f", la zona en la que me ubico es {self._zona.getNombre()}, en el {self.getZona.getZoo().getNombre()}"
+        #if self.getZona != None:    
+            #cadena+= f", la zona en la que me ubico es {self._zona.getNombre()}, en el {self.getZona.getZoo().getNombre()}"
         return cadena
         
 
