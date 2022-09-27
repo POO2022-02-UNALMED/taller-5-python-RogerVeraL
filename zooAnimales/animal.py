@@ -48,15 +48,15 @@ class Animal():
         from zooAnimales.reptil import Reptil as r
         from zooAnimales.pez import Pez as p
         from zooAnimales.anfibio import Anfibio as an
-        #"""
+        """
         print("Mamiferos :",m.cantidadMamiferos(),
         "Aves :",a.cantidadAves(),
         "Reptiles :",r.cantidadReptiles(),
         "Peces :",p.cantidadPeces(),
         "Anfibios :",an.cantidadAnfibios()
-        )#"""
-        #cadena = f"Mamiferos : {m.cantidadMamiferos()}\nAves : {a.cantidadAves()}\nReptiles : {r.cantidadReptiles()}\nPeces : {p.cantidadPeces()}\nAnfibios : {an.CantidadAnfibios()}"
-        #return cadena
+        )"""
+        cadena = f"Mamiferos : {m.cantidadMamiferos()}\nAves : {a.cantidadAves()}\nReptiles : {r.cantidadReptiles()}\nPeces : {p.cantidadPeces()}\nAnfibios : {an.CantidadAnfibios()}"
+        return cadena
     
     def toString(self):        
         cadena= f"Mi nombre es {self.getNombre()}, tengo una edad de {self.getEdad()}, habito en {self.getHabitat()} y mi genero es {self.getGenero()}"         
