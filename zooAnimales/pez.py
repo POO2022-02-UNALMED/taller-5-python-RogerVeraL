@@ -29,7 +29,7 @@ class Pez(Animal):
     
 
     #metodos
-    def cantidadAves():
+    def cantidadPeces():
         return Pez.peces
     def movimiento(self):
         return "nadar"

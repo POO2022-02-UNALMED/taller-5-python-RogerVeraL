@@ -28,7 +28,7 @@ class Reptil(Animal):
         self._largoCola=largoCola
     
     #metodos
-    def cantidadAves(self):
+    def cantidadReptiles():
         return Reptil.reptiles
     def movimiento(self):
         return "reptar"

@@ -21,7 +21,7 @@ class Ave(Animal):
         self._colorPlumas=colorPlumas
     
     #metodos
-    def cantidadAves(self):
+    def cantidadAves():
         return Ave.aves
     def movimiento(self):
         return "volar"
